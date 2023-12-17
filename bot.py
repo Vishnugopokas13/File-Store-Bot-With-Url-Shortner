@@ -308,13 +308,9 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
+                    
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://youtube.com/@Tech_VJ")
-                    ],
-                    [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("𝘎𝘖 𝘛𝘖 𝘏𝘖𝘔𝘌 𝘗𝘈𝘎𝘌", callback_data="gotohome")
                     ]
                 ]
             )
